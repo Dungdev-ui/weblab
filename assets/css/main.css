@@ -3,7 +3,7 @@
     height: 1200px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/it5.png);
+    background-image: url("./assets/img/it5.png");
 }   
 
 .header__navbar {
