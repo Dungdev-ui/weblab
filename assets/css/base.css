@@ -1,0 +1,41 @@
+:root {
+    --white-color: #ffffff;
+    --balck-color: #141212;
+    --text-color: #342e2e;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    /*HACK*/
+    font-size: 100%; /*=16px*/
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
