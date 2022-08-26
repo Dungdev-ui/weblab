@@ -1,9 +1,9 @@
 .header {
     width: 100%;
     height: 1200px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: url("it52.png");
 }   
 
 .header__navbar {
